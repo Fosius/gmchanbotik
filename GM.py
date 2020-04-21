@@ -98,3 +98,5 @@ async def allert( ctx, member: discord.Member ):
 
 
 token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
